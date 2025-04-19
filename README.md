@@ -26,5 +26,23 @@ This project automates end-to-end testing of the [Urban Ladder](https://www.urba
 ---
 
 ## 📁 Project Structure
-~~
-Urbanladder_project/ ├── src/ │ ├── test/ │ │ ├── java/ │ │ │ ├── stepDefinitions/ # Cucumber step definitions │ │ │ ├── pageObjects/ # POM classes (HomePage, CartPage, etc.) │ │ │ ├── runners/ # Test Runner class │ │ │ └── utils/ # WebDriver setup (BaseClass) │ │ └── resources/ │ │ └── features/ # .feature file(s) in Gherkin syntax ├── pom.xml # Maven build file └── README.md ~~
+Urbanladder_project/
+├── src/
+│   ├── main/
+│   │   ├── java/            
+│   │   ├── resources/         
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── stepdefinitions/         
+│   │   │   │   ├── UrbanladderSteps.java
+│   │   ├── testRunner
+│   │   │   │   ├── TestRunner.java
+│   │   ├── resources/  
+│   │   ├── features
+│   │   │   │   ├── Urbanlader.feature
+# Configuration files (if needed)
+├── test-output/                # Test reports and logs
+├── pom.xml                     # Maven configuration file
+├── testng.xml                  # TestNG test suite configuration
+└── target/                    
+~~~
