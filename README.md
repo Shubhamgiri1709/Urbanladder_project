@@ -23,27 +23,32 @@ This project automates end-to-end testing of the [Urban Ladder](https://www.urba
 - **WebDriverManager**
 - **Maven**
 
----
+~~
 
 ## 📁 Project Structure
-~~
+
+<pre>
 Urbanladder_project/
 ├── src/
 │   ├── main/
-│   │   ├── java/            
-│   │   ├── resources/         
+│   │   ├── java/
+│   │   └── resources/
+│
 │   ├── test/
 │   │   ├── java/
-│   │   │   ├── stepdefinitions/         
-│   │   │   │   ├── UrbanladderSteps.java
-│   │   ├── testRunner
-│   │   │   │   ├── TestRunner.java
-│   │   ├── resources/  
-│   │   ├── features
-│   │   │   │   ├── Urbanlader.feature    # Configuration files (if needed)
-├── test-output/                # Test reports and logs
-├── pom.xml                     # Maven configuration file
-├── testng.xml                  # TestNG test suite configuration
-└── target/                    
+│   │   │   ├── stepdefinitions/
+│   │   │   │   └── UrbanladderSteps.java
+│   │   │   └── testRunner/
+│   │   │       └── TestRunner.java
+│   │   └── resources/
+│   │       └── features/
+│   │           └── Urbanladder.feature
+│
+├── test-output/               # Test reports and logs
+├── pom.xml                    # Maven config
+├── testng.xml                 # TestNG suite config
+└── target/                    # Compiled files
+</pre>
+
 ~~
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/b1d8468f-83bd-4337-9055-4c007767ed6d" />
